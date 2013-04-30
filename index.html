@@ -12,11 +12,13 @@ function initialize() {
   var mapOptions = {
     zoom: 14,
     center: new google.maps.LatLng(map_location.x, map_location.y),
-    mapTypeId: google.maps.MapTypeId.ROADMAP
+    //mapTypeId: google.maps.MapTypeId.ROADMAP
+    mapTypeId: google.maps.MapTypeId.TERRAIN
   }
   var map = new google.maps.Map(document.getElementById('map-canvas'),
                                 mapOptions);
 
+  map.setHeading(90);
   setMarkers(map, points);
 }
 
