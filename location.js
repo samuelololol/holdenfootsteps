@@ -1,6 +1,6 @@
 var map_location = {
-  x : 40.760,
-  y : -73.969
+  x : 40.750,
+  y : -73.984
 };
 
 var points = [];
@@ -44,3 +44,5 @@ points.push({page:125, x:40.75823, y:-73.98560, desc:
 points.push({page:128, x:40.75855, y:-73.97897, desc:
 "Let's go ice-skating at Radio City!"
 });
+
+points.sort(function(a,b){return (b.page - a.page)})
