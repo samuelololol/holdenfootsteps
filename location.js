@@ -1,6 +1,6 @@
 var map_location = {
-  x : 40.750,
-  y : -73.984
+  x : 40.770,
+  y : -73.975
 };
 
 var points = [];
