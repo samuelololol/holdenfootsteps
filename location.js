@@ -45,4 +45,17 @@ points.push({page:128, x:40.75855, y:-73.97897, desc:
 "Let's go ice-skating at Radio City!"
 });
 
+points.push({page:61,  x:40.76432,  y=-73.9792, desc:""})
+points.push({page:88,  x:40.76432,  y=-73.9792, desc:""})
+points.push({page:136, x:40.7611,   y=-73.9711, desc:""})
+points.push({page:180, x:40.7579,   y=-73.9632, desc:""})
+points.push({page:153, x:40.7658,   y=-73.9741, desc:""})
+points.push({page:210, x:40.7697,   y=-73.9760, desc:""})
+points.push({page:208, x:40.7678,   y=-73.9719, desc:""})
+points.push({page:156, x:40.77264,  y=-73.9676, desc:""})
+points.push({page:119, x:40.78126,  y=-73.9741, desc:""})
+points.push({page:202, x:40.7855,   y=-73.9573, desc:""})
+points.push({page:118, x:40.7831,   y=-73.9651, desc:""})
+points.push({page:199, x:40.7856,   y=-73.9545, desc:""})
+
 points.sort(function(a,b){return (b.page - a.page)})
