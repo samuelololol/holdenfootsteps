@@ -80,7 +80,7 @@ function setMarkers(map, locations) {
         shadow: shadow,
         icon: image,
         shape: shape,
-        title: beach[0],
+        title: ''.concat('P', beach.page, beach.desc ? ', '+beach.desc:''),
         zIndex: i
     });
   }
